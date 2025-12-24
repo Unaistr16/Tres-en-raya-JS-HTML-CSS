@@ -1,0 +1,56 @@
+body {
+    background-color: lightcyan;
+}
+
+#tablero {
+    color: red;
+    font-family: Arial;
+    margin: auto;
+    margin-top: 60px;
+    width: 500px;
+    height: 500px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cuadrado {
+    display: flex;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid, 2px;
+    border-color: cyan;
+}
+
+#header{
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    width: 100px;
+}
+
+#jugar{
+    font-size: 30px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    background-color: rgba(34, 201, 34, 0.336);
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: none;
+    border-width: 0px;
+    padding: 5px;
+}
+
+#tituloHolder {
+    font-family: "Arial";
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
